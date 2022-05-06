@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 # !/usr/bin/env python
 """
-Date: 2021/12/1 17:00
+Date: 2022/1/15 17:00
 Desc: Jieba 演示
 https://github.com/fxsjy/jieba
 https://pypi.org/project/jieba/
@@ -15,6 +15,7 @@ import paddle
 paddle.enable_static()
 
 jieba.enable_paddle()  # 启动paddle模式。 0.40版之后开始支持，早期版本不支持
+
 strs = ["我来到北京清华大学", "乒乓球拍卖完了", "中国科学技术大学"]
 for str in strs:
     seg_list = jieba.cut(str, use_paddle=True)  # 使用paddle模式

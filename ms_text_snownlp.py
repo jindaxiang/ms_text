@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 # !/usr/bin/env python
 """
-Date: 2021/12/1 17:00
+Date: 2022/1/15 17:00
 Desc: SnowNLP 演示
 https://github.com/isnowfy/snownlp
 https://pypi.org/project/snownlp/

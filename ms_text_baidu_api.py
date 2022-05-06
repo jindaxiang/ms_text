@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 # !/usr/bin/env python
 """
-Date: 2021/12/1 17:02
+Date: 2022/1/15 17:02
 Desc: 商业接口-百度 AI-自然语言处理
 https://cloud.baidu.com/doc/NLP/s/tk6z52b9z
 """
@@ -13,3 +13,4 @@ client = AipNlp(APP_ID, API_KEY, SECRET_KEY)
 
 text = "苹果手机的电池容量很小但是很经用"
 result = client.sentimentClassify(text)
+print(result)

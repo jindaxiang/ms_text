@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 # !/usr/bin/env python
 """
-Date: 2021/12/1 17:00
+Date: 2022/1/15 17:00
 Desc: THULAC 演示
 https://github.com/thunlp/THULAC-Python
 https://pypi.org/project/thulac/

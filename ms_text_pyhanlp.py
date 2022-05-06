@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 # !/usr/bin/env python
 """
-Date: 2021/12/1 17:00
+Date: 2022/1/15 17:00
 Desc: pyhanlp 演示
 https://github.com/hankcs/pyhanlp
 https://pypi.org/project/pyhanlp/
@@ -29,6 +29,7 @@ document = "水利部水资源司司长陈明忠9月29日在国务院新闻办�
            "有部分省超过红线的指标。对一些超过红线的地方，陈明忠表示，对一些取用水项目进行区域的限批，" \
            "严格地进行水资源论证和取水许可的批准。"
 print(HanLP.extractKeyword(document, 3))
+
 # 自动摘要
 print(HanLP.extractSummary(document, 3))
 # 依存句法分析

@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 # !/usr/bin/env python
 """
-Date: 2021/12/1 17:08
+Date: 2022/1/15 17:08
 Desc: 百度 AI 自然语言处理登录信息
 """
 APP_ID = "16175650"
